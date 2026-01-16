@@ -68,3 +68,66 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+WHAT IT DOES?
+
+Permaculture Design Engine (PDE)
+
+A context-aware, adaptive permaculture layout generator in JavaScript.
+
+PDE generates realistic, non-circular permaculture zones and intelligently places land elements (ponds, orchards, gardens, livestock, swales, etc.) based on ecological principles, terrain, water flow, and human interaction frequency.
+
+🔹 Features
+
+Dynamic functional zoning (Zone 0–5) based on interaction and terrain
+
+Element placement guided by ecological relationships
+
+Hydrology-first design: ponds, swales, and forests placed along water flow
+
+Access optimization with least-cost path algorithms
+
+Modular, extensible architecture for simulation or AI integration
+
+Tech Stack
+
+JavaScript (ES6+)
+
+Canvas / SVG / D3.js for rendering
+
+Turf.js for spatial analysis
+
+d3-contour / marching-squares for contour & swale generation
+
+A* / Dijkstra algorithms for path optimization
+
+Use Cases
+
+Permaculture & agroforestry planning
+
+Ecological land-use modeling
+
+Educational tools for sustainable agriculture
+
+Regenerative farming decision support
+
+Future Roadmap
+
+Seasonal & multi-year simulation
+
+AI-assisted design reasoning & explanations
+
+Regional native species & ecology integration
+
+Human behavior modeling & feedback loops
+
+Collaborative multi-user design
+
+Contribution
+
+Contributions are welcome from developers, ecologists, permaculture designers, and sustainability enthusiasts.
+Focus: ecological logic, clarity, and adaptability.
+
+License
+
+Open-source for ethical, regenerative, and educational use.
